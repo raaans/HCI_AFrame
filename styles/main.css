@@ -1,0 +1,9 @@
+a {
+    margin: 8px;
+    padding: 8px 16px;
+    border: 0px solid;
+    border-radius: 4px;
+    color: white;
+    background-color: purple;
+    font-weight: bold;
+}
