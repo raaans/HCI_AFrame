@@ -1,9 +1,31 @@
+body,
+body section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "helvetica", sans-serif;
+}
+
 a {
     margin: 8px;
-    padding: 8px 16px;
+    padding: 16px 16px 12px 16px;
     border: 0px solid;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.6);
     border-radius: 4px;
     color: white;
     background-color: purple;
     font-weight: bold;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: blueviolet;
+}
+
+a:active {
+    border-top: 4px solid white;
+    border-bottom: 0px solid transparent;
 }
