@@ -21,10 +21,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    background-color: blueviolet;
-}
-
 a:active {
     border-top: 4px solid white;
     border-bottom: 0px solid transparent;
